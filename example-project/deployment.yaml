@@ -19,7 +19,7 @@ spec:
           image: yscrmetachatbot001.azurecr.io/example-app:20240916.5
           env:
             - name: IMAGE_VERSION
-              image: value: 20240916.5
+              value: 20240916.5
           ports:
             - containerPort: 80
       imagePullSecrets:
