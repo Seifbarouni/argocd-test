@@ -16,10 +16,10 @@ spec:
     spec:
       containers:
         - name: example-app
-          image: yscrmetachatbot001.azurecr.io/example-app:1.0.2
+          image: yscrmetachatbot001.azurecr.io/example-app:20240916.5
           env:
             - name: IMAGE_VERSION
-              image: value: 1.0.2
+              image: value: 20240916.5
           ports:
             - containerPort: 80
 ---
